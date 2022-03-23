@@ -1,0 +1,20 @@
+- description: Selectors for selecting the security-and-quality queries for a language
+- include:
+    kind:
+    - problem
+    - path-problem
+- include:
+    kind:
+    - diagnostic
+- include:
+    kind:
+    - metric
+    tags contain:
+    - summary
+- exclude:
+    deprecated: //
+#- exclude:
+#    query path:
+#      - /^experimental\/.*/
+#      - Metrics/Summaries/FrameworkCoverage.ql
+

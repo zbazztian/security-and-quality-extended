@@ -1,0 +1,8 @@
+# https://codeql.github.com/docs/codeql-cli/about-codeql-packs/
+
+name: zbazztian/security-and-quality-extended
+version: 0.0.2
+defaultSuiteFile: suites/default.qls
+suites: suites
+dependencies:
+    codeql/java-queries: "*"
