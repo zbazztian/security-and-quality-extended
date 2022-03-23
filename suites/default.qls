@@ -5,8 +5,5 @@
 - queries: '.'
   from: codeql/java-queries
 
-- queries: '.'
-  from: zbazztian/sebastians-query-pack
-
 - apply: ./selector.yml
 
