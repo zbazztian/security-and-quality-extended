@@ -6,3 +6,4 @@ defaultSuiteFile: suites/default.qls
 suites: suites
 dependencies:
     codeql/java-queries: "*"
+    zbazztian/sebastians-query-pack: "*"

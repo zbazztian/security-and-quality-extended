@@ -1,6 +1,12 @@
 # https://codeql.github.com/docs/codeql-cli/creating-codeql-query-suites/
 
 - description: security-and-quality-extended
-  queries: '.'
+
+- queries: '.'
   from: codeql/java-queries
+
+- queries: '.'
+  from: zbazztian/sebastians-query-pack
+
 - apply: ./selector.yml
+
